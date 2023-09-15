@@ -17,7 +17,7 @@ module "ficky-module" {
   az_two         = "Enter your second az"
   vpc_id         = "aws_vpc.eks_vpc.id"
   eks_version    = "1.26"
-  desired_size   = 3
+  desired_size   = 3   #specify preference
   max_size       = 5
   min_size       = 1
   ami_type       = "AL2_x86_64"
